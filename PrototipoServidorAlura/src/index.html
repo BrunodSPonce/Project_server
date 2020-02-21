@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PrototipoServidorAlura</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../image/favicon.ico" />
+
+</head>
+
+<body class="mat-typography">
+  <header class="container-fluid col-sm-12 col-lg-12">
+    <nav class="navbar navbar-expand-lg navbar-dark col-sm-12">
+      <img src="./assets/logo.png" alt="Unidas">
+
+      <!-- Botão responsivo -->
+      <button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#menuResponsivo"
+        aria-controls="menuResponsivo" aria-expanded="false" aria-label="Alterna Navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Itens do Menu -->
+      <div class="collapse navbar-collapse col-sm-10" id="menuResponsivo">
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="./TelaInicial.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="./configuracoes.html">Configurações</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./Historico.html">Histórico</a>
+          </li>
+        </ul>
+
+        <div class="align-self-end ml-auto">
+          <button onclick="window.location.href='./insercao_servidor.html'" type="button"
+            class="btn btn-primary center-block">Novo Item</button>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <app-root></app-root>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.paginator{
+    display: flex;
+    justify-content: left;
+}
+.cdk-overlay-connected-position-bounding-box{
+    padding-left: 100px;
+}
+.mat-option:hover{
+    background-color: rgb(240, 240, 240);
+}
+.mat-paginator-navigation-next{
+    background-color: black;
+}
